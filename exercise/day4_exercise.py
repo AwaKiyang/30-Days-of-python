@@ -1,0 +1,25 @@
+web =['30','days','of','python']
+print(' '.join(web))
+company = 'Coding For All'
+print(company)
+print(len(company))
+print(company.upper())
+print(company.lower())
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+print(company.strip('Coding'))
+print(company.index('Coding'))
+print(company.replace('Coding','Python'))
+print(company.split())
+print(company[0])
+print(company[-1])
+print(company[10])
+print(company[0],company[7],company[11])
+print(company.find('F'))
+print(company.startswith('Coding'))
+print(company.endswith('All'))
+print('I am enjoying this challenges.\nI just wonder what is next.')
+radius = 10
+area = 3.14 * radius ** 2
+print(f'the area of the circle with raduis {radius} is {area} meters square.')

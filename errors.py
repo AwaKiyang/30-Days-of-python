@@ -1,0 +1,12 @@
+#here i a list of python errors
+SyntaxError = "An error that occurs when the Python parser encounters a syntax error in the code."
+IndentationError = "An error that occurs when there is an incorrect indentation in the code."   
+NameError = "An error that occurs when a variable or function name is not defined."
+TypeError = "An error that occurs when an operation or function is applied to an object of inappropriate type."
+IndexError = "An error that occurs when trying to access an index that is out of range in a list or tuple."
+ValueError = "An error that occurs when a function receives an argument of the right type but inappropriate value."
+ModuleNotFoundError = "An error that occurs when a module cannot be found."
+KeyError = "An error that occurs when trying to access a dictionary key that does not exist."
+AttributeError = "An error that occurs when an invalid attribute reference is made."
+ZeroDivisionError = "An error that occurs when attempting to divide by zero."
+ImportError = "An error that occurs when an import statement fails to find the module or package."   
