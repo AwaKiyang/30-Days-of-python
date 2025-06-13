@@ -2624,6 +2624,7 @@ print(dic)
 
 #sort out ten most spoken language
 def ten_most():
+    
     langArrOfArr = list(map(lambda pay: pay['languages'],countries)) #here we are mapping the langusge item into an array
     langlst= [i for row in langArrOfArr for i in row]
     langset = set(langlst) #here we eliminate repition by converitng the array into a set
