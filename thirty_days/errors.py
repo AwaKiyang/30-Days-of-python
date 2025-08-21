@@ -10,3 +10,7 @@ KeyError = "An error that occurs when trying to access a dictionary key that doe
 AttributeError = "An error that occurs when an invalid attribute reference is made."
 ZeroDivisionError = "An error that occurs when attempting to divide by zero."
 ImportError = "An error that occurs when an import statement fails to find the module or package.."   
+FileNotFoundError = "An error that occurs when a file or directory is requested but does not exist."
+RuntimeError = "An error that occurs when an error is detected that doesn't fall in any of the other categories."
+RecursionError = "An error that occurs when the maximum recursion depth is exceeded."
+OverflowError = "An error that occurs when the result of an arithmetic operation is too large to be represented."
